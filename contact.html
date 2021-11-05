@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfzaSLEEPClinics</title>
+
+      <!-- Favicons -->
+    <link href="./img/favicon.png" rel="icon">
+    <link href="./img/icons8-sleeping-96.png" rel="sleeping-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap 5 icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <!-- google map api -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
+    <!-- for Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ---------for chart---------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+
+    <!-- jQuery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- angular -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <!-- Vue Js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
+    
+
+    <!-- -----------------------awesome font link----------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous"/>
+
+    <!-- my css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- my jQuery file -->
+    <script defer src="script.js"></script>
+
+    <!-- my Javascript file -->
+    <script defer src="main.js"></script>
+
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav fs-5 pe-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">AfzaSLEEPClinicks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./disorder.html">Disorder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./solutions.html">Solutions</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                <li><a class="dropdown-item" href="./whyweare.html">Why we are</a></li>
+                <li><a class="dropdown-item" href="./testimonials.html">Testimonials</a></li>
+                <li><a class="dropdown-item" href="./gallery.html">Gallery</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <form>
+            <input id="myInput" class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- End Header -->
+    <br>
+    <br>
+    <br>
+    <br>
+  <main id="forsearch">
+          <!-- breadcrumbs -->
+    <section>
+        <div class="row mt-1">
+          <div class="col-md-9"></div>
+          <div class="col-md-3">  
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html" class="text-decoration-none">Home</a></li>
+              <li class="breadcrumb-item active">Contact</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    
+    <section class="text-white bg-info py-3" data-aos="fade-in">
+      <div class="my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold" data-aos="fade-up">Get in Touch</h1>
+        <div class="col-lg-6 mx-auto"> </div>
+      </div>
+    </section>
+         <!-- ---------------------information1------------------ -->
+    <section class="text-white bg-secondary py-3">
+      <div class="container-fluid" >
+        <div class="row">
+          <div class="col-lg-4 pt-6" data-aos="fade-down"> 
+            <img class="img-fluid" src="./img/imgcontact2.jpg" alt="Index Image" >
+          </div>
+          <div class="col-lg-8 align-items-center" data-aos="fade-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5769.788040502922!2d-79.281565957212!3d43.6919666285334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4ce90c672e19d%3A0x6b336d96ccd7cc6d!2s3%20Leyton%20Ave%2C%20Scarborough%2C%20ON%20M1L%203T5!5e0!3m2!1sen!2sca!4v1636067853854!5m2!1sen!2sca" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>          </div>
+        </div>
+        </div> <!-- end of row -->
+    </section> <!-- end of about -->
+             <!-- ---------------------information2------------------ -->
+
+      <section id="contact" class="contact">
+        <div class="container-fluid bg-light">
+    
+          <div class="row justify-content-center" data-aos="fade-up">
+    
+            <div class="col-lg-10">
+    
+              <div class="info-wrap">
+                <div class="row">
+                  <div class="col-lg-4 info">
+                    <!-- <i class="bi bi-geo-alt"></i> -->
+                    <i class="fas fa-street-view"></i>
+                    <h4>Location:</h4>
+                    <p>X Leyton Ave<br>Scarborough, M1L 3T5</p>
+                  </div>
+    
+                  <div class="col-lg-4 info mt-4 mt-lg-0">
+                    <!-- <i class="bi bi-envelope"></i> -->
+                    <i class="far fa-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>info@afzasleepclinics.ca<br>contact@afzasleepclinics.ca</p>
+                  </div>
+    
+                  <div class="col-lg-4 info mt-4 mt-lg-0">
+                    <!-- <i class="bi bi-phone"></i> -->
+                    <i class="fas fa-phone-volume"></i>
+                    <h4>Call:</h4>
+                    <p>+1 647 888 8888<br>+1 647 888 8889</p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+          </div>
+    </section>
+      <!-- ------------------information3--------------- -->
+    <section>
+      <div class="row align-items-md-stretch my-3" data-aos="fade-down">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Drop us a line </h2>
+            <p>and we will get back as soon as possible</p>
+            <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Click Here</button>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+  </section>
+  <!-- ---------------------------first offcanvas------------- -->
+  <section>
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasBottomLabel">Please enter your name</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- ---------------------------second offcanvas------------- -->
+  <section>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Please enter your phone number and email address</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+          </div>
+          <div class="col-md-4">
+            <input type="email" class="form-control" placeholder="email address" aria-label="email address">
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        <!-- ---------------------------Third offcanvas------------- -->
+  <section>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Please type your message</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3" aria-controls="offcanvasBottom">Submit</button>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        <!-- ---------------------------Fourth offcanvas------------- -->
+        <section>
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                  <h2>Thanks for contacing us</h2>
+                </div>
+                <div class="col-md-2">
+               </div>
+              </div>
+            </div>
+          </div>
+        </section>
+     </main>
+
+    <!-- -----------------------social media--------------- -->
+  <section class="social-media">
+    <a href="https://www.facebook.com/" class="d-flex align-items-center justify-content-center text-decoration-none">
+      <i class="bi bi-facebook" data-aos="zoom-in-left" data-aos-delay="1000" style="font-size:25px;"></i>   
+    </a>
+    <a href="https://www.youtube.com/" class="d-flex align-items-center justify-content-center text-decoration-none">
+      <i class="bi bi-youtube" data-aos="fade-up" data-aos-delay="1000" style="font-size:25px;"></i>   
+    </a>
+    <a href="https://ca.linkedin.com/" class="d-flex align-items-center justify-content-center text-decoration-none">
+      <i class="bi bi-linkedin" data-aos="fade-down" data-aos-delay="1000" style="font-size:25px;"></i>   
+    </a>
+  </section>
+
+   <!-- ---------------------back to top--------- -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center text-decoration-none">
+    <i class="bi bi-caret-up-fill" data-aos="fade-in" style="font-size:40px;" ></i>
+  </a>
+  <!----------------------- Footer -->
+  <section class="footer text-light">
+    <div class="container">
+        <div class="row" data-aos="fade-right">
+          <div class="col-lg-3 py-4 py-md-5">
+            <div class="d-flex align-items-center">
+              <a href="./index.html" class="text-decoration-none text-white-50">              
+                <h4 class="fs-3">AfzaSLEEPClinics</h4>
+              </a>
+            </div>
+              <p class="py-3 para-light fs-5">Excellent healthcare and attention to the patients is our promise to you!</p>
+          </div> <!-- end of col -->
+          <div class="col-lg-1 py-4 py-md-5"></div>
+
+          <div class="col-lg-3 py-3 py-md-5">
+            <div>
+              <h4 class="py-2">Quick Links</h4>
+              <div class="d-flex align-items-center">
+                <a href="./disorder.html" class="text-decoration-none text-white-50"><p class="ms-3">Disorder</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./solutions.html" class="text-decoration-none text-white-50"><p class="ms-3">Solutions</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./whyweare.html" class="text-decoration-none text-white-50"><p class="ms-3">About</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./contact.html" class="text-decoration-none text-white-50"><p class="ms-3">Contact</p></a>
+              </div>
+            </div>
+          </div> <!-- end of col -->
+          <div class="col-lg-3 py-4 py-md-5">
+            <div>
+              <h4 class="py-2">Useful Links</h4>
+              <div class="d-flex align-items-center">
+                <a href="./testimonials.html" class="text-decoration-none text-white-50"><p class="ms-3">Testimonials</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./product-recall.html" class="text-decoration-none text-white-50"><p class="ms-3">Prroduct-recall</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./gallery.html" class="text-decoration-none text-white-50"><p class="ms-3">Gallery</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./faq.html" class="text-decoration-none text-white-50"><p class="ms-3">FAQ</p></a>
+              </div>
+            </div>
+          </div> <!-- end of col -->
+          
+          <div class="col-lg-2 py-4 py-md-5">
+            <div class="d-flex align-items-center">
+              <h4>Newsletter</h4>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="input-group mt-5">
+                <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" class="btn btn-primary"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-align-bottom" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2z"/>
+                  <path fill-rule="evenodd" d="M1 14.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                </svg> Click here</a>              
+              </div>
+            </div>
+          </div> <!--end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="exampleModalToggleLabel">Subscribe for Newsletters</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" class="form-control form-control-sm" placeholder="Your Email ID">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="exampleModalToggleLabel2">Thanks</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-dark">
+            Thanks for Subscription.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- end of footer -->
+
+  <!-- Bottom -->
+  <div class="bottom py-2 text-light" >
+    <div class="container d-flex justify-content-between">
+        <div>
+            <p>Copyright &copy; AfzaSLEEPClinics, 
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+            <p>Designed by: &nbsp;<a href="#" class="text-decoration-none text-white-50">Abu Afza</a></p>
+        </div>
+    </div> <!-- end of container -->
+  </div> <!-- end of bottom -->
+  <!-- for AOS -->
+  <script>
+    AOS.init({
+      duration: 3000,
+    })
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfzaSLEEPClinics</title>
+
+      <!-- Favicons -->
+    <link href="./img/favicon.png" rel="icon">
+    <link href="./img/icons8-sleeping-96.png" rel="sleeping-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap 5 icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <!-- for Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ---------for chart---------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+
+    <!-- jQuery -->
+    <script defer  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- angular -->
+    <script defer  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <!-- Vue Js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
+
+    <!-- -----------------------awesome font link----------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous"/>
+
+    <!-- my css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- my jQuery file -->
+    <script defer src="script.js"></script>
+
+    <!-- my Javascript file -->
+    <script defer src="main.js"></script>
+
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav fs-5 pe-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">AfzaSLEEPClinicks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./disorder.html">Disorder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./solutions.html">Solutions</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                <li><a class="dropdown-item" href="./whyweare.html">Why we are</a></li>
+                <li><a class="dropdown-item" href="./testimonials.html">Testimonials</a></li>
+                <li><a class="dropdown-item" href="./gallery.html">Gallery</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <form>
+            <input id="myInput" class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- End Header -->
+    <br>
+    <br>
+    <br>
+    <br>
+  <main id="forsearch">
+          <!-- breadcrumbs -->
+    <section>
+        <div class="row mt-1">
+          <div class="col-md-9"></div>
+          <div class="col-md-3">  
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html" class="text-decoration-none">Home</a></li>
+              <li class="breadcrumb-item active">Sleep Disorder</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    
+         <!-- ---------------------information1------------------ -->
+    <section id="disorderheading" class="mb-3">
+    </section>
+         <!-- ---------------------information2------------------ -->
+
+    <section>
+        <div class="row mb-3">
+            <div class="col-1"></div>
+            <div class="col-10 border-bottom border-top border-5 border-info ">
+                <h2 class="text-center font-monospace fs-4">FROM MATERIALS BY AMERICAN ACADEMY OF SLEEP MEDICINE</h2>
+                <h2 class="text-center">Most Common Sleep Disorders</h2>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+             <!-- ---------------------information3------------------ -->
+    <!--Section: Scrollspy-->
+    
+        <section class="border p-4 mb-4">
+          <style>
+            .scrollspy-example {
+              position: relative;
+              height: 320px;
+              overflow: auto;
+            }
+          </style>
+          <div class="row">
+            <div class="col-md-8">
+              <div data-mdb-spy="scroll" data-mdb-target="#scrollspy" data-mdb-offset="0" class="scrollspy-example">
+                <section id="example-1">
+                  <h3>OVERVIEW</h3>
+                  <p>
+                    This section provides information about most common sleep related disorders. This information 
+                    is provided for educational purposes only and is not aimed to assist in self-diagnosis. 
+                    Should you be concerned about having any of the conditions described in this section, 
+                    please contact us to arrange a consultation with one of our specialists or contact your 
+                    family physician for referral.
+                  </p>
+                </section>
+                <section id="example-2">
+                  <h3>OBSTRUCTIVE SLEEP APNEA</h3>
+                  <p>
+                    Obstructive sleep apnea is a common and serious sleep disorder that causes you to stop 
+                    breathing during sleep. The airway repeatedly becomes blocked, limiting the amount of 
+                    air that reaches your lungs. When this happens, you may snore loudly or making choking 
+                    noises as you try to breathe. Your brain and body becomes oxygen deprived and you may 
+                    wake up. This may happen a few times a night, or in more severe cases, several hundred 
+                    times a night.
+                  </p>
+                  <p>
+                    In many cases, an apnea, or temporary pause in breathing, is caused by the tissue in the 
+                    back of the throat collapsing. The muscles of the upper airway relax when you fall asleep. 
+                    If you sleep on your back, gravity can cause the tongue to fall back. This narrows the airway, 
+                    which reduces the amount of air that can reach your lungs. The narrowed airway causes snoring 
+                    by making the tissue in back of the throat vibrate as you breathe.
+                  </p>
+                  <p>
+                    The lack of oxygen your body receives can have negative long-term consequences 
+                    for your health. This includes:
+                 </p>
+                <ul class="list-group">               
+                    <li class="list-group-item list-group-item-primary">High blood pressure</li>
+                    <li class="list-group-item list-group-item-secondary">Heart disease</li>
+                    <li class="list-group-item list-group-item-success">Stroke</li>
+                    <li class="list-group-item list-group-item-danger">Pre-diabetes and diabetes</li>
+                    <li class="list-group-item list-group-item-warning">Depression</li>
+                </ul>
+                </section>
+                <section id="example-3">
+                  <h3>CENTRAL SLEEP APNEA</h3>
+                  <p>
+                    Central sleep apnea occurs when your brain doesn’t send proper signals to the 
+                    muscles that control breathing. Central sleep apnea is less common form of sleep apnea. 
+                    This means you make no effort to breathe for a short period of time. You may awaken with 
+                    shortness of breath or have a difficult time getting to sleep or staying asleep.
+                  </p>
+                  <p>
+                    Central sleep apnea is a breathing disorder that causes your body to decrease or stop 
+                    the effort of breathing during sleep. This occurs in an off-and-on cycle. It is a result
+                    of a problem in the brain or heart. It is different from obstructive sleep apnea (OSA) 
+                    because the problem is not caused by a blockage of the airway.
+                  </p>
+                  <p>
+                    The brain and heart normally interact to direct, monitor, and change the amount of air 
+                    that we breathe. The problem in central sleep apnea syndromes (CSA) is that the brain 
+                    and heart move an abnormal amount of air into the lungs
+                  </p>
+                </section>
+                <section id="example-4">
+                    <h3>INSOMNIA</h3>
+                    <p>
+                    Insomnia is the most common sleep complaint. It occurs when you
+                    have trouble falling asleep or staying asleep even though you had the opportunity 
+                    to get a full night of sleep. The causes, symptoms and severity of insomnia vary from 
+                    person to person. Insomnia may include:
+                    </p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Difficulty falling asleep</li>
+                        <li class="list-group-item">Difficulty staying asleep throughout the night</li>
+                        <li class="list-group-item">Waking up too early in the morning</li>
+                    </ol>
+                    <p>
+                        Insomnia involves both a sleep disturbance and daytime symptoms. The effects 
+                        of insomnia can impact nearly every aspect of your life. Studies show that 
+                        insomnia negatively affects work performance, impairs decision-making and can 
+                        damage relationships. In most cases, people with insomnia report a worse overall 
+                        quality of life. Everyone has the occasional night of poor sleep. In many cases this 
+                        is due to staying up too late or waking up too early. This does not mean you have 
+                        insomnia, it means you didn’t get enough sleep.
+                    </p>
+                  </section>
+                  <section id="example-5">
+                    <h3>NARCOLEPSY</h3>
+                    <p>
+                        Narcolepsy is a lifelong sleep disorder that makes you feel overwhelmingly tired, 
+                        and in severe cases, have sudden uncontrollable sleep attacks. Narcolepsy can impact 
+                        nearly every aspect of your life. It is dangerous because you can have excessive 
+                        sleepiness or a sleep attack at any time of the day, in the middle of any activity 
+                        including eating, walking or driving. Operating a vehicle with untreated narcolepsy 
+                        can be very dangerous and some states even have laws against it.
+                    </p>
+                    <p>
+                        Many people with narcolepsy do not know they have the sleep disorder. About one in 
+                        2,000 people have some form of narcolepsy. Narcolepsy may run in some families, 
+                        but most cases are not genetic. The disorder is extremely rare in children. The 
+                        cause of narcolepsy is still unknown, but recent research suggests that many people 
+                        with narcolepsy with cataplexy have low levels of the neurotransmitter hypocretin, 
+                        a chemical that regulates arousal, wakefulness and appetite.
+                    </p>
+                  </section>
+                  <section id="example-6">
+                    <h3>RESTLESS LEG SYNDROM (RLS)</h3>
+                    <p>
+                        Restless legs syndrome is a neurological sleep disorder that make you have an 
+                        overwhelming urge to move your legs. Restless legs syndrome makes it difficult to 
+                        get comfortable enough to fall asleep. The symptoms are usually worse at night. The 
+                        sensation is difficult for some people to describe. You may lie down and begin to 
+                        feel burning or itching inside your legs. If you move your legs or get up and walk 
+                        around, these symptoms may go away. The discomfort may return when you try again to 
+                        go to sleep.                    
+                    </p>
+                    <p>
+                        Restless legs syndrome may cause you to get fewer hours of sleep each night. Many 
+                        people with severe cases get less than five hours of sleep per night. Milder cases 
+                        do not disturb your sleep as much, though the sleep may be of poorer quality.
+                   </p>
+                  </section>
+                  <section id="example-7">
+                    <h3>SHIFT WORK DISORDER</h3>
+                    <p>
+                        Shift work disorder occurs when you have difficulties adjusting to a work schedule 
+                        that takes place during a time which most people sleep. When you have shift work disorder, 
+                        there is a conflict between your body’s circadian rhythms and your work schedule. You may 
+                        have to be at work when your body wants to sleep. Then when you have to sleep, you body 
+                        expects to be awake.
+                    </p>
+                    <p>
+                        People with shift work disorder may sleep up to four hours less than the average worker. 
+                        Shift work disorder causes you to have trouble sleeping or be severely tired. The quality 
+                        of sleep may be poor, and you may wake up feeling unrefreshed. You may feel fatigued or 
+                        exhausted. This can hurt your performance at work, and can put you at risk for making a 
+                        costly mistake or getting injured on the job.
+                    </p>
+                  </section>
+                  <section id="example-8">
+                    <h3>CIRCADIAN RYTHM DISORDERS</h3>
+                    <p>
+                        This category of disorders includes conditions in which the sleep times are out of 
+                        alignment. A patient with one of these disorders does not follow the normal sleep 
+                        times at night.
+                    </p>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action" aria-current="true">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Delayed Sleep-Wake Phase</h5>
+                          </div>
+                          <p class="mb-1">This circadian rhythm disorder is a sleep pattern that is delayed 
+                              by two or more hours so that a person goes to sleep later at night and sleeps 
+                              later in the morning.</p>
+                        </a>
+                        <a class="list-group-item list-group-item-action" aria-current="true">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">Advanced Sleep-Wake Phase</h5>
+                            </div>
+                            <p class="mb-1">This circadian disorder causes people to fall asleep several 
+                                hours before a normal bedtime and wake up hours earlier than most people 
+                                wake in the morning.</p>
+                          </a>
+                          <a class="list-group-item list-group-item-action" aria-current="true">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">Irregular Sleep-Wake Rhythm</h5>
+                            </div>
+                            <p class="mb-1">This disorder causes a person’s circadian rhythms to be so 
+                                disorganized that there is no clear sleep or wake pattern. People with 
+                                this sleep disorder may sleep off and on in a series of naps over a 24-hour 
+                                period.</p>
+                          </a>
+                      </div>
+                  </section>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="scrollspy" class="sticky-top">
+                <ul class="nav flex-column nav-pills menu-sidebar">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#example-1">OVERVIEW</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-2">OBSTRUCTIVE SLEEP APNEA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-3">CENTRAL SLEEP APNEA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-4">INSOMNIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-5">NARCOLEPSY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-6">RESTLESS LEG SYNDROM (RLS)</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-7">SHIFT WORK DISORDER</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#example-8">CIRCADIAN RYTHM DISORDERS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+      <!--Section: Scrollspy-->
+            <!-- ---------------------information4------------------ -->
+
+            <section class="mt-3 mb-3">
+                <div class="container-fluid bg-primary">  
+                    <div class="row text-center p-5 text-dark" data-aos="zoom-in">
+                        <div class="col-lg-4">
+                            <h4 class="py-3 display-5 fw-bolder">Sleep Apnea Quiz</h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h4 class="py-3 fs-5 fw-bolder">
+                                The STOP BANG questionnaire is used to determine the risk of having or developing 
+                                Obstructive Sleep Apnea (OSA). Please answer as best you can and scoring instructions 
+                                are after the quiz. Please feel free to contact our office at 647-888-8888 for 
+                                further assistance
+                            </h4>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <!-- ---------------------information5------------------ -->
+
+            <section class="d-flex align-items-center text-white py-5" id="indexinformation3">
+                <div class="container" >
+                  <div class="row d-flex align-items-center">
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-lg-10" data-aos="fade-right">
+                      <p class="display-6">Ready to take the sleep quiz?</p>
+                      <hr>
+                      <p class="fs-6 py-2 para-light" >
+                        This quiz is used to determine the risk of having or developing sleep apnea. There are 
+                        eight yes/no questions that will take you less than two minutes to answer. You'll see your 
+                        results at the end of the quiz.
+                      </p>
+                      <div class="my-3">
+                        <a class="btn btn-warning btn-lg" href="https://rlivt97n3ni.typeform.com/to/yEEjQXZj">Let's get Started</a> 
+                        <br><br>
+                        <i class="bi bi-stopwatch-fill"></i>  Takes 1 min
+                      </div>
+                      <!-- <div data-tf-widget="yEEjQXZj" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script> -->
+                    </div>
+                    <div class="col-lg-1"></div>
+                  </div> <!-- end of row -->
+                </div> <!-- end of container -->
+              </section> <!-- end of about -->
+
+                          <!-- ---------------------information6------------------ -->
+
+        <section class="d-flex align-items-center text-white py-5 bg-secondary" id="disorderinformation6">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                        <p class="display-6 text-center border-bottom border-info">Statistics of sleep disorder</p>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-8 card chart-container" data-aos="fade-right">
+                        <canvas id="chart"></canvas>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                        <small class="text-warning">* all data in million </small>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div> <!-- end of container -->
+        </section> <!-- end of about -->
+        
+     </main>
+
+    <!-- -----------------------social media--------------- -->
+  <section class="social-media">
+    <a href="https://www.facebook.com/" class="d-flex align-items-center justify-content-center text-decoration-none">
+      <i class="bi bi-facebook" data-aos="zoom-in-left" data-aos-delay="1000" style="font-size:25px;"></i>   
+    </a>
+    <a href="https://www.youtube.com/" class="d-flex align-items-center justify-content-center text-decoration-none">
+      <i class="bi bi-youtube" data-aos="fade-up" data-aos-delay="1000" style="font-size:25px;"></i>   
+    </a>
+    <a href="https://ca.linkedin.com/" class="d-flex align-items-center justify-content-center text-decoration-none">
+      <i class="bi bi-linkedin" data-aos="fade-down" data-aos-delay="1000" style="font-size:25px;"></i>   
+    </a>
+  </section>
+
+   <!-- ---------------------back to top--------- -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center text-decoration-none">
+    <i class="bi bi-caret-up-fill" data-aos="fade-in" style="font-size:40px;" ></i>
+  </a>
+  <!----------------------- Footer -->
+  <section class="footer text-light">
+    <div class="container">
+        <div class="row" data-aos="fade-right">
+          <div class="col-lg-3 py-4 py-md-5">
+            <div class="d-flex align-items-center">
+              <a href="./index.html" class="text-decoration-none text-white-50">              
+                <h4 class="fs-3">AfzaSLEEPClinics</h4>
+              </a>
+            </div>
+              <p class="py-3 para-light fs-5">Excellent healthcare and attention to the patients is our promise to you!</p>
+          </div> <!-- end of col -->
+          <div class="col-lg-1 py-4 py-md-5"></div>
+
+          <div class="col-lg-3 py-3 py-md-5">
+            <div>
+              <h4 class="py-2">Quick Links</h4>
+              <div class="d-flex align-items-center">
+                <a href="./disorder.html" class="text-decoration-none text-white-50"><p class="ms-3">Disorder</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./solutions.html" class="text-decoration-none text-white-50"><p class="ms-3">Solutions</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./whyweare.html" class="text-decoration-none text-white-50"><p class="ms-3">About</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./contact.html" class="text-decoration-none text-white-50"><p class="ms-3">Contact</p></a>
+              </div>
+            </div>
+          </div> <!-- end of col -->
+          <div class="col-lg-3 py-4 py-md-5">
+            <div>
+              <h4 class="py-2">Useful Links</h4>
+              <div class="d-flex align-items-center">
+                <a href="./testimonials.html" class="text-decoration-none text-white-50"><p class="ms-3">Testimonials</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./product-recall.html" class="text-decoration-none text-white-50"><p class="ms-3">Prroduct-recall</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./gallery.html" class="text-decoration-none text-white-50"><p class="ms-3">Gallery</p></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="./faq.html" class="text-decoration-none text-white-50"><p class="ms-3">FAQ</p></a>
+              </div>
+            </div>
+          </div> <!-- end of col -->
+          
+          <div class="col-lg-2 py-4 py-md-5">
+            <div class="d-flex align-items-center">
+              <h4>Newsletter</h4>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="input-group mt-5">
+                <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" class="btn btn-primary"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-align-bottom" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2z"/>
+                  <path fill-rule="evenodd" d="M1 14.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                </svg> Click here</a>              
+              </div>
+            </div>
+          </div> <!--end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="exampleModalToggleLabel">Subscribe for Newsletters</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" class="form-control form-control-sm" placeholder="Your Email ID">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="exampleModalToggleLabel2">Thanks</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-dark">
+            Thanks for Subscription.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- end of footer -->
+
+  <!-- Bottom -->
+  <div class="bottom py-2 text-light" >
+    <div class="container d-flex justify-content-between">
+        <div>
+            <p>Copyright &copy; AfzaSLEEPClinics, 
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+            <p>Designed by: &nbsp;<a href="#" class="text-decoration-none text-white-50">Abu Afza</a></p>
+        </div>
+    </div> <!-- end of container -->
+  </div> <!-- end of bottom -->
+  <!-- for AOS -->
+  <script>
+    AOS.init({
+      duration: 3000,
+    })
+  </script>
+</body>
+</html>

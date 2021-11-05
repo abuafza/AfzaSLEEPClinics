@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/deb6f023-2282-4a50-a9b0-8ba91a3f59c4/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/AfzaSLEEPClinics",
+    "appService.deploySubpath": "."
+}
